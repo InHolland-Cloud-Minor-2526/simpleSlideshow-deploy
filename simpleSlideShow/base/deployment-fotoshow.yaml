@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: fotoshow
-          image: 'image-registry.openshift-image-registry.svc:5000/sam-sam-showcase/fotoshow@sha256:3353cb84e8a956a5c53f88da2e45153d465b4b7115ff28e80a4c4c4053305c89'
+          image: 'ghcr.io/mirkarlar/fotoshow:sha-0cbe368'
           ports:
             - containerPort: 18181
               protocol: TCP
