@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/component: fotoshow
     app.kubernetes.io/instance: fotoshow
     app.kubernetes.io/name: fotoshow
-  annotations:
+  annotations: {}
 spec:
   host: fotoshow-sam-sam-showcase.apps.inholland-minor.openshift.eu
   to:
